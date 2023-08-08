@@ -6,9 +6,8 @@ public class Main {
     public static void main(String[] args) {
         String stones = "";
         String jewels = "Fgje";
-        JewelsChecker jewelsChecker = new JewelsChecker();
         try {
-            System.out.println(jewelsChecker.checker(stones, jewels));
-        } catch (IOException e) {System.err.println("To many/much stones or jewels!");};
+            System.out.println(JewelsChecker.checker(jewels, stones));
+        } catch (IOException e) {System.err.println("To many/much stones or jewels!");}
     }
 }

@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class JewelsChecker {
 
-    public int checker (String stones, String jewels) throws IOException{
+    public static int checker (String stones, String jewels) throws IOException{
 
         char[] stonesArr = (stones.toCharArray());
         char[] jewelsArr = (jewels.toCharArray());
